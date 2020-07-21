@@ -1,0 +1,77 @@
+body{
+    margin:0;
+    padding: 0;
+    position: relative;
+}
+#introduction{
+    position: absolute;
+    left:30px;
+    font-family:"Times New Roman",Georgia,Serif;
+    font-weight: bold;
+}
+h1{
+    position: relative;
+    left:100px;
+}
+h2{
+    position: relative;
+    top:20px;
+}
+p{
+    display: inline;
+}
+#plus{
+    position: relative;
+    left:50px;
+}
+#minus{
+    position: relative;
+    left:20px;
+}
+#bg{
+    position: absolute;
+    left:280px;
+    cursor: url('materials/hammer.png'),auto;
+}
+#hm{
+    position:fixed;
+    z-index: 9999;
+}
+#mole{
+    position:absolute;
+    z-index: 99;
+}
+#reminder{
+    position: absolute;
+    left: 1000px;
+    top: 50px;
+    font-family:"Times New Roman",Georgia,Serif;
+    font-weight: bold;
+    font-size: 150%;
+}
+#mole{
+    cursor: url('materials/hammer.png'),auto;
+    display:none;
+}
+#start{
+    position: absolute;
+    height: 50px;
+    width: 200px;
+    left: 550px;
+    top: 550px;
+}
+#score{
+    position: absolute;
+    left: 1050px;
+    top: 150px;
+    font-family:"Times New Roman",Georgia,Serif;
+    font-weight: bold;
+    font-size: 150%;
+}
+#restart{
+    position: absolute;
+    height: 50px;
+    width: 200px;
+    left: 1100px;
+    top: 250px;
+}

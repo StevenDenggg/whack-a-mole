@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Whack a Mole</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="introduction">
+        <h1>游戏说明</h1>
+        <div>
+            <div id="plus"> 
+                <p>打晕</p>
+                <img src="materials/mole_laugh.png">
+                <p>加100分</p><br>
+            </div>
+            <div id = "minus">
+                <p>打晕</p>
+                <img src="materials/mole_girl.png">
+                <p>减200分</p><br>
+            </div>
+            <h2>尽情享受你的游戏吧！</h2>
+        </div>
+    </div>
+    <audio loop="loop" src="materials/bgmusic.mp3" id="bgmusic"></audio>
+    <img src="materials/bg_canvas.png" alt="bg" id="bg">
+    <img src="materials/mole_laugh.png" alt="mole" id="mole">
+    <div id="reminder">时间剩余:30s</div>
+    <div id="score">你的得分为:0</div>
+    <button id="start">游戏开始</button>
+    <button id="restart" disabled="disabled">重新开始</button>
+    <script src="javascript.js"></script>
+</body>
+
+</html>
